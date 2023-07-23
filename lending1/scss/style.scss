@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+.head {
+  
+}
+body{
+  
+}
+h1{ 
+  font-family: Roboto;
+  font-size: 22.9px;
+  line-height: 114px;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: #161616;
+  margin-left: 50px;
+}
+.photo {
+  width: 1170px;
+  height: 573px;
+  margin-left: 50px;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-image: url("img/covers/a1cover.jpg")
+}
+.image-class{
+  width: 1170px;
+  height: 573px;
+}
+
+.Project_Title {
+  margin-left: 99px;
+}
+h2{
+  font-family: Roboto;
+  font-size: 33.1px;
+  line-height: 113px;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: #161616;
+}
+p{
+  font-family: Roboto;
+  font-size: 16.6px;
+  line-height: 30px;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  color: #545454;
+}
+.text1 {
+  width: 373.8px;
+  height: 137.5px;
+  margin-left: 100px;
+  display: inline-block;
+}
+.img2 {
+  float: right;
+  width: 556px;
+  height: 384px;
+  background-color: #e9e9e9;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  left: -407px;
+  top: -220px;
+}
+.qwe {
+  width: 556px;
+  height: 384px;
+}
+.centre {
+    margin-top: 200px;
+    margin-left: 99px;
+    display: flex;
+  .nav {
+    flex: 1;
+    max-width:584px;
+    height: 189px;
+    float: left;
+
+  }
+}
+.cart {
+  margin-top: 200px;
+  margin-left: 99px;
+  display: flex;
+  .nav2 {
+    flex: 1;
+    max-width: 364px;
+    height: 279px;
+    background-color: #e9e9e9;
+    margin-right: 10px;
+  }
+  .nav2:last-child {
+  margin-right: 0;
+  }
+}
+.ewq {
+    width: 364px;
+    height: 279px;
+}
+
+.end {
+  margin-top: 200px;
+  margin-left: 99px;
+  display: flex;
+  .nav3 {
+    flex: 1;
+    max-width:550px;
+    height: 189px;
+    text-align: left;
+  }
+  .nav3:last-child {
+    max-width:550px;
+  }
+}
+.cart2 {
+  margin-top: 200px;
+  margin-left: 99px;
+  display: flex;
+  .photo2 {
+    flex: 1;
+    max-width: 545px;
+    height: 435px;
+    background-color: #e9e9e9;
+    margin-right: 10px;
+  }
+}
+.zxc {
+    width: 545px;
+    height: 435px;
+}
+.endphoto {
+  margin-top: 10px;
+  margin-left: 99px;
+  margin-bottom: 95px
+}
+.photo3 {
+  width: 1100px;
+  height: 573px;
+  background-color: #e9e9e9;
+}
+.asd {
+  width: 1100px;
+  height: 573px;
+}
+.back {
+  .knop {
+   
+    font-family: Roboto;
+    font-size: 15.3px;
+    line-height: 114px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #161616;
+  }
+}
+.butt {
+    margin-top: 50px;
+    display: flex;
+  .obr {
+        margin-left: 587px;
+        max-width: 193px;
+        max-height: 43px;
+        background-color: #ffffff;
+        border: 1px solid #161616;
+        flex: 1;
+        font-family: Roboto;
+        font-size: 15.3px;
+        line-height: 43px;
+        font-weight: 400;
+        letter-spacing: 0.025em;
+        color: #161616;
+        text-align: center;
+  }
+}
+.foote {
+  margin-left: 99px;
+  margin-top: 50px;
+  display: flex;
+    .nav4 {
+      margin-right: -99px;
+      flex: 1;
+      .logos {
+        max-width: 25px;
+        max-width: 25px;
+      }
+  }
+  .nav4:last-child {
+    margin-right: 0px;
+  }
+}
+h3{
+  font-family: Roboto;
+  font-size: 15.3px;
+  line-height: 33px;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  color: #999999;
+}
+
+li{
+  font-family: Roboto;
+  font-size: 15.3px;
+  line-height: 33px;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  color: #999999;
+}
